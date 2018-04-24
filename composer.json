@@ -1,0 +1,15 @@
+{
+    "name": "dersam/php-base",
+    "type": "project",
+    "require": {
+        "codeception/codeception": "^2.4",
+        "consolidation/robo": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Schmidt",
+            "email": "samuel@dersam.net"
+        }
+    ]
+}
