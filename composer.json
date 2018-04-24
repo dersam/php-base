@@ -16,6 +16,7 @@
       "psr-4": { "Dersam\\": "src/" }
     },
     "scripts": {
-      "test": "codecept run"
+      "test": "codecept run",
+      "serve": "php -S localhost:8000 -t public/"
     }
 }
