@@ -11,5 +11,11 @@
             "name": "Sam Schmidt",
             "email": "samuel@dersam.net"
         }
-    ]
+    ],
+    "autoload": {
+      "psr-4": { "Dersam\\": "src/" }
+    },
+    "scripts": {
+      "test": "codecept run"
+    }
 }
