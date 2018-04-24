@@ -1,4 +1,4 @@
 <?php
 require_once '../vendor/autoload.php';
 
-echo "Hello world!";
+echo (new \Dersam\ExampleClass())->getGreeting();
