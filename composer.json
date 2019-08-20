@@ -5,7 +5,8 @@
         "codeception/codeception": "^2.4",
         "consolidation/robo": "^1.2",
         "symfony/event-dispatcher": "~4.1.0",
-        "symfony/process": "~4.1.0"
+        "symfony/process": "~4.1.0",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "license": "MIT",
     "authors": [

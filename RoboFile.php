@@ -22,4 +22,11 @@ class RoboFile extends \Robo\Tasks
     {
         $this->say($message);
     }
+
+    public function exampleHttpGet()
+    {
+        $this->say(
+        (new GuzzleHttp\Client())->request('GET', 'https://example.com')->getBody()
+        );
+    }
 }
